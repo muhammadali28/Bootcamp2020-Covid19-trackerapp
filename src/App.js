@@ -36,6 +36,7 @@ class App extends React.Component {
         <CountryPicker handleCountryChange={this.handleCountryChange} /> 
         <Chart data={data} country={country}/>
       </div>
+      
     );
   }
 }
